@@ -1,5 +1,8 @@
 
 /* nav styling */
+.container{
+    background-color: black;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -24,28 +27,88 @@ nav{
 /* 1st section styling */
 
 .first-section{
-    border: solid red 1px;
-    height: 700px;
+   
+    height: 600px;
     background-image: url(./img/img-mission-background.webp);
     background-repeat: no-repeat;
+    background-position: center;
+   width: 95%;
     display: flex;
     align-items: center;
+    margin: 0 auto;
+    background-size: 100% auto;
 } 
 
 article{
     height: 80px; 
-    border: solid red 1px;
-    width: 100%;
+  
     color: white;
     background-color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    width: 100%;
+       
    
 }
-h4{
-    border: solid red 1px;
+.first-section h2{
+    
+    margin-top: 7px;
+    color: grey ;
+}
+
+.first-section h4{
     margin-top: 0px;
     color: grey ;
+}
+/* Styling second section */
+
+.second-section{
+    border: solid red 1px;
+    width: 90%;
+    margin: 0 auto;
+    height: 800px;
+    
+}
+.second-section-title{
+ margin-top: 30px;
+ line-height:60px ;
+}
+
+.images-container{
+    border: solid red 1px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+   
+
+}
+
+.second-row{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.image{
+    height: 200px;
+    width: 300px;
+
+}
+
+h1, h3{
+    color:  grey;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+
+h4{
+    text-align: center;
 }
